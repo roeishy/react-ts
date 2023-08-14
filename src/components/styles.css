@@ -16,7 +16,7 @@
 }
 
 .input__box:focus{
-    box-shadow: 0 0 10px 1000px rgba(0,0,0,5);
+    box-shadow: 0 0 10px 1000px rgba(78, 73, 73, 0.438);
     outline: none;
 }
 
@@ -41,5 +41,12 @@
 
 .input__submit:active{
     transform: scale(0.8);
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgb(44, 44, 44);
+}
+
+.todos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
 }
